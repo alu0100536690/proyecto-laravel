@@ -21,3 +21,7 @@ Una vez realizada la configuración inicial podemos comenzar con la instalación
 ```bash
 composer create-project --prefer-dist laravel/laravel nombre_proyecto
 ```
+
+# ¿Cómo funcion LARAVEL?
+
+![](./images/mvc.jpg)
