@@ -97,6 +97,19 @@ class PaginasController extends Controller
 #MIGRACIONES
 
 Podríamos decir que son un tipo de control de versiones para nuestra base de datos.
+¿Cómo crear una migración?
+
+En este ejemplo creamos una tabla llamada productos.
+
+```bash
+php artisan make:migration productos_migration --create productos
+
+php artisan migrate:install
+
+php artisan migrate
+
+php artisan make:model Productos
+```
 
 #ELOQUENT
 
