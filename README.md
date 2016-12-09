@@ -70,10 +70,36 @@ Route::get('/nosotros', 'PaginasController@nosotros');
 
 Se encuentran dentro del directorio **app/Http/Controllers**
 
+*Ejemplo de un controlador:
+
+```bash
+<?php
+namespace App\Http\Controllers;
+use App\User;
+use App\Http\Controllers\Controller;
+class PaginasController extends Controller
+{
+    
+    public function nosotros(){
+      $nombre='Merquis';
+      return view('nosotros')->with([
+        'nombre' =>'Merquis',
+        'apellido' => 'Cruz']);
+    }
+
+}
+```
+
 #BLADE
+
+**Blade** es el motor de plantillas de **Laravel** y permite desarrollar código de forma más rápida y limpia.
 
 #MIGRACIONES
 
+Podríamos decir que son un tipo de control de versiones para nuestra base de datos.
+
 #ELOQUENT
+
+**Eloquent** es el ORM que incluye Laravel para manejar de una forma fácil y sencilla los procesos correspondientes al manejo de bases de datos en nuestro proyecto, gracias a las funciones que provee podremos realizar complejas consultas y peticiones de base de datos sin escribir una sola línea de código SQL.
 
 
