@@ -6,7 +6,12 @@ Laravel es un framework de código abierto para desarrollar aplicaciones y serv
 
 * Tener un servidor web y composer
 
-1- En este tutorial utilizacermos XAMPP que es un paquete que permite levantar un servidor apache y utilizar bases de datos MySQL.
+1- En este tutorial utilizaremos XAMPP que es un paquete que permite levantar un servidor apache y utilizar bases de datos MySQL.
+
 Instalar [XAMPP](https://www.apachefriends.org/es/download.html)
 
 ![](./images/xampp.jpg)
+
+2- Composer es una herramienta de administración de dependencias para PHP. Está altamente inspirado en el NPM de NODEJS o el Bundler de Ruby. Para instalar composer entramos en [https://getcomposer.org](https://getcomposer.org/), hacemos clic en Download e instalamos el paquete que corresponda a nuestro Sistema Operativo.
+
+![](./images/composer.jpg)
