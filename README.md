@@ -15,3 +15,9 @@ Instalar [XAMPP](https://www.apachefriends.org/es/download.html)
 2- Composer es una herramienta de administración de dependencias para PHP. Está altamente inspirado en el NPM de NODEJS o el Bundler de Ruby. Para instalar composer entramos en [https://getcomposer.org](https://getcomposer.org/), hacemos clic en Download e instalamos el paquete que corresponda a nuestro Sistema Operativo.
 
 ![](./images/composer.jpg)
+
+Una vez realizada la configuración inicial podemos comenzar con la instalación de [LARAVEL](https://laravel.com/docs/). Para ello nos colocamos en c:\xampp\htdocs y ejecutamos el siguiente comando:
+
+```bash
+composer create-project --prefer-dist laravel/laravel nombre_proyecto
+```
