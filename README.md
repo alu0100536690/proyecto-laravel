@@ -49,6 +49,23 @@ Se encuentran dentro del directorio **resources/views** , es el resultado final 
 
 Se encuentran dentro del directorio **routes** , las rutas pueden retornar una vista aunque lo correcto es que llamen a un controlador y este sea quien retorne la vista o llame a un modelo, dependiendo si se realiza alguna petición a una base de datos.
 
+*Ejemplo de rutas: 
+
+```bash
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/productos', function () {
+$productos = App\Productos::all();
+return $productos;
+});
+
+Route::get('/nosotros', 'PaginasController@nosotros');
+
+
+```
+
 #CONTROLADORES
 
 Se encuentran dentro del directorio **app/Http/Controllers**
