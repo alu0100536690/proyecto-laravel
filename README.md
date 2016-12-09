@@ -18,10 +18,37 @@ Instalar [XAMPP](https://www.apachefriends.org/es/download.html)
 
 Una vez realizada la configuración inicial podemos comenzar con la instalación de [LARAVEL](https://laravel.com/docs/). Para ello nos colocamos en c:\xampp\htdocs y ejecutamos el siguiente comando:
 
+![](./images/laravel.jpg)
+
+
 ```bash
 composer create-project --prefer-dist laravel/laravel nombre_proyecto
 ```
 
+Por último activamos nuestro servidor apache en XAMPP y si todo ha salido bien deberíamos poder entrar a nuestro sitio web Instalar [localhost/nombre_proyecto/public](localhost/nombre_proyecto/public)
+
+De forma opcional podemos acortar la URL a [localhost:8000](localhost:8000) escribiendo el siguiente comando:
+
+```bash
+php artisan serve
+```
+
+**Artisan** es el nombre de la interfaz de línea de comandos incluida en Laravel. Provee comandos útiles para el desarrollo de tu aplicación. Está impulsada por el poderoso componente Console de Symfony.
+
+
 # ¿Cómo funcion LARAVEL?
 
 ![](./images/mvc.jpg)
+
+
+#VISTAS
+
+#CONTROLADORES
+
+#BLADE
+
+#MIGRACIONES
+
+#ELOQUENT
+
+
